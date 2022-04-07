@@ -7,7 +7,7 @@
 
     "content_scripts": [
         {
-            "matches": ["*://megaplanit.pov.swimlane.io/*"],
+            "matches": ["https://megaplanit.pov.swimlane.io/*"],
             "js": ["fixCSS.js"]
         }
     ]
