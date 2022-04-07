@@ -5,6 +5,10 @@
     "description":"Javascript extension to fix scrollbar issues on Swimlane.io deployments.",
     "homepage_url":"https://github.com/itsfrly/SwimlaneFix-FireFox-Extension.git",
 
+    "permissions": [
+        "webNavigation"
+    ],
+
     "content_scripts": [
         {
             "matches": ["https://megaplanit.pov.swimlane.io/*"],
